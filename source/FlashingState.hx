@@ -27,11 +27,11 @@ class FlashingState extends MusicBeatState
 		final buttonAccept:String = mobile.MobileControls.enabled ? 'A' : 'ENTER';
 
 		warnText = new FlxText(0, 0, FlxG.width,
-			'Hey, watch out!\n
-			This Mod contains some flashing lights!\n
-			Press $buttonAccept to disable them now or go to Options Menu.\n
+			'FNF vs Collin N Co Disclaimer!\n
+			this Collin N Co includes a bunch of songs :O\n
+			Press $buttonAccept so if you want to play the freeplay song in case play the week called Week Cp3 ok.\n
 			Press $buttonBack to ignore this message.\n
-			You\'ve been warned!',
+			You\'ve been warned',
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
